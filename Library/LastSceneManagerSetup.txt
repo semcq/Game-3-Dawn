@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Menu Screen.unity
+- path: Assets/Night Two.unity
   isLoaded: 1
   isActive: 1

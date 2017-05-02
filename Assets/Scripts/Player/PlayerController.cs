@@ -108,6 +108,7 @@ public class PlayerController : MonoBehaviour
         {
             Flashlight.energy += batteryIncrease;
             //Debug.Log(Flashlight.energy);
+            text.text = Mathf.Round(Flashlight.energy) + "%";
             AudioSource.PlayClipAtPoint(batteryPickupSound, transform.position, 1.0f);
             Destroy(other.gameObject);
         }
